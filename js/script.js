@@ -66,7 +66,7 @@ if (form) {
     // Cria o botão "Salvar Notas e Média"
     const saveButton = document.createElement("button");
     saveButton.textContent = "Salvar Notas e Média";
-    saveButton.classList.add("btn", "btn-success", "mt-2");
+    saveButton.classList.add("btn", "btn-success", "mt-2", "mb-3");
     saveButton.addEventListener("click", function () {
       saveToFile(matematica, algoritmia, design, web, sistemas, media);
     });
